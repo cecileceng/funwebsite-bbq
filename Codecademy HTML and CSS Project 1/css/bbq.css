@@ -1,0 +1,148 @@
+html {
+  background-color: rgb(51, 61, 69);
+  margin: 0px;
+font-family: 'Fira Sans', sans-serif;}
+
+body {
+  border-top: 0px;
+  border-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: url("../img/roundstacklogs.jpg") no-repeat center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+/*  Navbar items below */
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0px;
+  border: 1px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  /*Sets the text hover color on navbar*/
+  background-color: rgb(25, 130, 114);
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  /*BACKGROUND color for active*/
+  background-color: #030033;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: #fff;
+  border: 1px;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #66CCFF;
+  /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: silver;
+  /*Change rollover cell color here*/
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  /*Change active text color here*/
+}
+
+.container, .container-fluid {
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.jumbotron {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 200px;
+  text-align: left;
+font-family: 'Fira Sans', sans-serif;
+  font-size: 300px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+  font-style: bold;
+  font-size: 75px;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 0px;
+}
+
+.btn {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0px;
+  color: #fff;
+  background-color: rgb(25, 130, 114);
+}
+
+.btn:hover {
+  background-color: rgb(25, 100, 100);
+  color: #fff;
+}
+
+.btn:active {
+  background-color: rgb(125, 44, 4);
+  color: #fff;
+}
+
+.sometalking {
+  background-color: rgba(51, 61, 69, 0.5);
+font-family: 'Fira Sans', sans-serif;}
+
+.sometalking h1 {
+  color: #fff;
+}
+
+.sometalking p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.picture-time{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url("..\img\20151005_164352957_iOS (2).jpg");
+}
+
+.footer {
+  background-color: rgba(51, 61, 69, 0.5);
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.footer p {
+  text-align: center;
+}
